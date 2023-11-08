@@ -10,7 +10,7 @@ const users = require("./schema/visitors");
 
 
 
-const connectionURI = 'mongodb+srv://danielowusu1759:ct2203@code-cluster.zdowcz5.mongodb.net/login?retryWrites=true&w=majority';
+const connectionURI = 'mongodb+srv://danielowusu1759:process.env.MONGO_PROJECT@code-cluster.zdowcz5.mongodb.net/login?retryWrites=true&w=majority';
 
 mongoose.connect(connectionURI, {
     useNewUrlParser: true,
